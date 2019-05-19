@@ -69,7 +69,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   bbq_days = []
   holiday_hash.each do |season, holiday|
-    holiday_hash.each do |holiday, supplies|
+    holiday_hash.each do |day, supplies|
       supplies.find do |element|
         bbq_days.push(supplies)
       end
