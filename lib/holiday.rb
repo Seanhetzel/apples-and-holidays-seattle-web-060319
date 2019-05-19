@@ -71,7 +71,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season, holiday|
     holiday_hash.each do |day, supplies|
       supplies.find do |element|
-        bbq_days << day
+        bbq_days << element
       end
     end
   end
