@@ -70,7 +70,9 @@ def all_holidays_with_bbq(holiday_supplies)
   bbq_days = []
   holiday_supplies.each do |season, holiday|
     holiday_supplies.each do |holiday, supplies|
-      puts supplies
+      holiday_supplies.each do |key, value|
+        
+        puts value
     
     end
   end
